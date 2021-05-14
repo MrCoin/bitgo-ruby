@@ -28,6 +28,10 @@ module Bitgo
         COIN_TXLM = 'txlm', # Stellar Testnet
         COIN_RMG  = 'rmg',  # Royal Mint Gold Production  Production
         COIN_TRMG = 'trmg', # Royal Mint Gold Testnet Test
+        COIN_ALGO = 'algo',   # Algorand Production
+        COIN_TALGO = 'talgo', # Algorand Testnet
+        COIN_TRX = 'trx',     # Tron Production
+        COIN_TTRX = 'ttrx'    # Tron Tronex Testnet
       ]
 
       def initialize(end_point = LIVE, proxy_url: nil)
